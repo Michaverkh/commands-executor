@@ -1,0 +1,17 @@
+{
+  "name": "commands-executor",
+  "version": "1.0.0",
+  "description": "This util helps to create custom process or chain of commands for automatization your coding.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mikhail Verkhovinets",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.7"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
+  }
+}
