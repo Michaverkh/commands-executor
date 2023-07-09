@@ -5,7 +5,7 @@ import { ICommandExecFfmpeg } from "./command.types";
 export abstract class CommandExecutor<Input> {
   constructor(private logger: IStreamlogger) {}
 
-  public async execute(data: string) {
+  public async execute() {
     const input = await this.prompt();
     const command = this.build(input);
     const stream = this.spawn(command);
